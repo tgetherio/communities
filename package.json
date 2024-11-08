@@ -1,5 +1,5 @@
 {
-  "name": "communities",
+  "name": "tgether-communities",
   "devDependencies": {
     "@nomicfoundation/hardhat-ledger": "^1.0.3",
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
