@@ -1,0 +1,44 @@
+{
+  "name": "communities",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ledger": "^1.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.2.0",
+    "@chainlink/contracts-ccip": "^1.5.0",
+    "@chainlink/local": "^0.2.2"
+  },
+  "version": "1.1.1",
+  "description": "Tgether Communities",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgetherio/communities.git"
+  },
+  "keywords": [
+    "tgether",
+    "communities",
+    "dao",
+    "group",
+    "governance"
+  ],
+  "author": "tgether",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgetherio/communities/issues"
+  },
+  "homepage": "https://github.com/tgetherio/communities#readme"
+}

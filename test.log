@@ -1,0 +1,101 @@
+Compiled 18 Solidity files successfully (evm target: paris).
+
+
+  LaneRegistry
+    ✔ should register lanes correctly
+    ✔ should add lane to zeroLengthArray on registration
+    ✔ should append a proposal and forward the fee to the lane
+    ✔ should remove lane from zeroLengthArray after appending
+    ✔ should update lowestLaneLengthId after appending to a lane
+    ✔ should add lane back to zeroLengthArray when length becomes zero
+    ✔ should allow lanes to report their length
+    ✔ should only allow owner to add lanes
+    ✔ should only allow intake contract to append to lanes
+    ✔ should only allow authorized lanes to report length
+
+  tgether Communities Contract with Lane Registry
+    Community Creation
+      ✔ Should create a community
+      ✔ Should fail to create a community that already exsists
+    Community Proposal Creation
+      ✔ Should create a Community Proposals
+      ✔ Should fail to create a Community Proposal when not a member
+      ✔ Should fail to create a Community Proposal when not enough fee
+    Custom Proposal Creation
+      ✔ Should create a Custom Proposals
+      ✔ Should fail to create a Custom Proposal when not a member
+      ✔ Should fail to create a Custom Proposal when not enough fee
+    Vote Creation
+      ✔ Should create a Community Vote
+      ✔ Should fail to create a Community Vote when not a member
+      ✔ Should fail to create a Community Vote when member has already voted
+      ✔ Should fail to create a Vote when user does not have enough creds
+      ✔ Should fail to create a Vote when proposal is not open
+    Check Upkeep in Lane
+      ✔ Should pass upkeep check in the lane
+      ✔ Should fail upkeep check when time has not passed
+      ✔ Should choose the second proposal as higher priority for upkeep
+    Perform Upkeep in Lane
+      ✔ Should perform upkeep - Community Proposal fails, update registry length and proposal array
+      ✔ Should perform upkeep - Community Proposal passes, update registry length and proposal array
+      ✔ Should perform upkeep - Custom Proposal passes, update registry length and proposal array
+
+  tgether Members Contract
+    Add self as Reviewer
+      ✔ Should add self as Reviewer
+      ✔ Should fail to add self as Reviewer if already part of a community
+      ✔ Should fail to add self as Reviewer invite only community
+      ✔ Should add self as Reviewer invite only community
+    Invite Member
+      ✔ Should invite member
+      ✔ Should fail to invite member if not owner
+      ✔ Should fail to invite member if not invited only
+      ✔ Should fail to invite member if already a member
+      ✔ Should fail to invite member if already invited
+    Uninvite Member
+      ✔ Should uninvite member
+      ✔ Should fail to uninvite member if not owner
+      ✔ Should fail to uninvite member if not invited only
+      ✔ Should fail to uninvite member if not invited
+    Remove Self as Member
+      ✔ Should remove self as member
+      ✔ Should fail to remove self as member if not member
+    Add Positive Cred
+      ✔ Should add positive cred
+      ✔ Should fail to add positive cred if adder is not a member
+      ✔ Should fail to add positive cred if target is not a member
+      ✔ Should fail to add positive cred if already added
+      ✔ Should fail to add positive cred if target is self
+    Add Negative Cred
+      ✔ Should add negative cred
+      ✔ Should fail to add negative cred if adder is not a member
+      ✔ Should fail to add negative cred if target is not a member
+      ✔ Should fail to add negative cred if already added
+      ✔ Should fail to add negative cred if target is self
+    Remove Positive Cred
+      ✔ Should remove positive cred
+      ✔ Should fail to remove positive cred if adder has not given any
+      ✔ Should fail to remove positive cred if adder has only given negative
+    Remove Negative Cred
+      ✔ Should remove negative cred
+      ✔ Should fail to remove positive cred if adder has not given any
+      ✔ Should fail to remove positive cred if adder has only given negative
+    Set Creds When Cred Contract
+      ✔ Should set creds when cred contract
+      ✔ Should fail to set creds if not the correct community 
+      ✔ Should fail to allow users to add pos cred when contract is responsible 
+      ✔ Should fail to allow users to add neg cred when contract is responsible 
+      ✔ Should fail to allow users to remove pos cred when contract is responsible 
+      ✔ Should fail to allow users to remove neg cred when contract is responsible 
+      ✔ Should allow cred access contract to invite members
+      ✔ Should allow cred access contract to uninvite members 
+      ✔ Should fail to invite and uninvite for wrong community 
+      ✔ Should fail when an owner tries to update a credaccess controlled community 
+
+  tgether Members Info Contract
+    Add Member Info
+      ✔ Should add member info
+
+
+  71 passing (5s)
+

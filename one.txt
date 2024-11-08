@@ -1,0 +1,20 @@
+Fund contract deployed to: 0x009359A28115f5b336101FEb4D371b87d423cf4f
+Communities contract deployed to: 0x778895E75bd57DbcC409aa9FB5ef402297eb9AcB
+Members contract deployed to: 0xBF81C27d8e03a4f7ebDD5bC1De0A69285Ed79AAe
+Communities contract updated with Members contract address.
+Members contract updated with Communities contract address.
+Lane Registry contract deployed to: 0x3FcfCc816E84e796C8834318C74e56300221549B
+Communities contract updated with Lane Registry contract address.
+Lane contract deployed to: 0xBFe6B0FF35b693c494598a6525a300572D55eb06
+Community Consensus contract deployed to: 0x263B77866b4fE287f33F48bb97E12CD13DDFe883
+Posts contract deployed to: 0x1Dc3c742d9dFe008224291bEd882B07A5d4e1209
+Posts Consensus contract deployed to: 0xFc7297D17EB349368B22198fE85BabEEffaD1eA4
+Post Consensus Registry deployed to: 0xf7827d2fb586f66dDD7b66C77d2e3281DBc044C9
+Posts Consensus Lane Registry set.
+Post Consensus Lane contract deployed to: 0xc6Ca418ff4A1F1F27EE4E85A326615AB5dD32b60
+Tgether Incentives contract deployed to: 0xA1E68fBB1c6F0A9a805858eAE0D3F19Ab8FfA449
+Consensus Bounty contract deployed to: 0xfC7678b850008Fad51D127a324dEbB6386DeCd90
+Tgether Parameter Group Registry deployed to: 0x8dddbC38d3129C42B638DB95fa5A92537ee23e74
+Community Enrollment contract deployed to: 0xa8453e31B66f26ef1045AfDda309204F0A740CE9
+Tgether Parameter Group Registry updated with Community Enrollment contract address.
+Members Info contract deployed to: 0x679de0Ed2EAfA7044B04abD465300370a3085A8b
